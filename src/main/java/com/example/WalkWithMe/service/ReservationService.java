@@ -1,6 +1,5 @@
 package com.example.WalkWithMe.service;
 
-import com.example.WalkWithMe.dto.CustomerDto;
 import com.example.WalkWithMe.dto.ReservationDto;
 import com.example.WalkWithMe.dto.converter.ReservationDtoConverter;
 import com.example.WalkWithMe.dto.request.ReservationRequest;
