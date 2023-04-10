@@ -1,8 +1,6 @@
 package com.example.WalkWithMe.dto.converter;
 
-import com.example.WalkWithMe.dto.CustomerDto;
 import com.example.WalkWithMe.dto.ReservationDto;
-import com.example.WalkWithMe.model.Customer;
 import com.example.WalkWithMe.model.Reservation;
 import org.springframework.stereotype.Component;
 

@@ -2,22 +2,15 @@ package com.example.WalkWithMe.service;
 
 import com.example.WalkWithMe.dto.ReservationDto;
 import com.example.WalkWithMe.dto.WalkerDto;
-import com.example.WalkWithMe.dto.converter.ReservationDtoConverter;
 import com.example.WalkWithMe.dto.converter.WalkerDtoConverter;
 import com.example.WalkWithMe.dto.request.CreateWalkerRequest;
-import com.example.WalkWithMe.dto.request.UpdateCustomerRequest;
 import com.example.WalkWithMe.dto.request.UpdateWalkerRequest;
-import com.example.WalkWithMe.exception.ReservationTimeTakenException;
 import com.example.WalkWithMe.exception.WalkerNotFoundException;
-import com.example.WalkWithMe.model.Customer;
-import com.example.WalkWithMe.model.Reservation;
 import com.example.WalkWithMe.model.Walker;
-import com.example.WalkWithMe.repository.ReservationRepository;
 import com.example.WalkWithMe.repository.WalkerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
